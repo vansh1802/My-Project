@@ -1,0 +1,24 @@
+ADMIN DASHBOARD
+We have created Admin Dashboard with CSS Grid Layout and Theme Switching.
+We have designed and build a professional, responsive admin dashboard interface using HTML, CSS Grid layout, 
+and a theme switching feature (light and dark modes).
+
+In styles we have created root :{} for the background colours of the main content area, nav bar, header, footer.
+also we have created a input function for the checkbox which turns the theme dark. 
+it is done by adding the body into the <div> section which makes the whole body integrated in the div class Dashboard,
+Created the theme switch using CSS.
+
+1. Header: Contains the dashboard title and a theme switch (light/dark).
+
+2. Navbar: Includes navigation links such as Home, Users, and Settings.
+
+3. Main Content Area: Placeholder for data visualization, reports, or welcome messages.
+
+4. Footer: Displays footer text or copyright.
+
+Created the "theme switch" using CSS.
+
+Learning Outcomes :
+1. learnt about the switching styles.
+2. learnt about the different tags of html.
+3. learnt about creating the different colour themes.
