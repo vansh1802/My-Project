@@ -1,0 +1,15 @@
+In this Experiment we will step into the role of interactive web designers by building a browser-based drawing tool using SVG and JavaScript. 
+The goal is to create a canvas where users can draw shapes simply by clicking and dragging their mouse—just like a mini paint app.
+ This activity blends creativity with technical skill, helping learners understand how real-time user interactions are captured and 
+ translated into visual elements. It’s a fun and practical way to explore DOM manipulation, SVG graphics, and event-driven programming, 
+ all while building something they can actually use and show off.
+
+Key Learning Points
+- Understand SVG Basics – Learn how scalable vector graphics work and how they differ from HTML elements.
+- Set Up a Drawing Canvas – Create an SVG area that acts as an interactive space for user input.
+- Capture Mouse Events – Use mousedown, mousemove, and mouseup to track user interactions.
+- Draw Shapes Dynamically – Implement logic to create and resize shapes in real time as the mouse moves.
+- Enable Multiple Drawings – Allow users to draw several shapes without refreshing the page.
+- Use JavaScript for DOM Manipulation – Practice creating and updating SVG elements using JavaScript.
+- Build a Responsive UI – Ensure smooth user experience with clean code and intuitive interactions.
+
