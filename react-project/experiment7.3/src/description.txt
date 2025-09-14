@@ -1,0 +1,22 @@
+This experiment introduces the concept of class-based inheritance in JavaScript (ES6) by designing a base Person class and extending it into specialized Student and Teacher subclasses.
+It emphasizes how inheritance promotes code reuse, structure, and clarity in object-oriented design.
+
+Key Implementation Steps
+- Create the Base Class (Person)
+Define a class with properties like name and age, and a method displayInfo() to show basic personal details.
+- Extend with Student Subclass
+Build a Student class that inherits from Person and adds a property like grade or course. Override or extend the method to include student-specific details.
+- Extend with Teacher Subclass
+Build a Teacher class that also inherits from Person, adding a property like subject or department. Customize the method to reflect teacher-specific information.
+- Demonstrate Method Overriding
+Override the displayInfo() method in both subclasses to show how polymorphism works in ES6 classes.
+- Create and Test Instances
+Instantiate objects of both Student and Teacher, and call their methods to verify inheritance, property access, and method behavior.
+
+
+ Learning Outcomes
+- Understand the principles of class inheritance and how it applies to real-world modeling.
+- Learn how to use the extends keyword and constructor chaining with super().
+- Practice method overriding to customize behavior in subclasses.
+- Strengthen your ability to write modular and reusable code using ES6 syntax.
+- Build confidence in applying object-oriented design patterns in JavaScript projects.
