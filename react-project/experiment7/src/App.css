@@ -1,0 +1,16 @@
+.app-container {
+  border: 1px solid #000;
+  padding: 20px;
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.products-wrapper {
+  display: inline-block;
+  justify-content: center;
+  gap: 20px;
+}
