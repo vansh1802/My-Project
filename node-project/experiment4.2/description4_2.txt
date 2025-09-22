@@ -1,0 +1,18 @@
+Build a RESTful API using Express.js to manage a dynamic collection of playing cards.
+This project introduces core concepts of routing, HTTP methods, and data handling in Node.js.
+Card data is stored in-memory, allowing quick prototyping without a database.
+The API supports operations like listing, adding, retrieving, and deleting cards.
+
+ Key Features
+- GET /cards: Retrieve the full list of playing cards.
+- POST /cards: Add a new card with suit and value properties.
+- GET /cards/:id: Fetch a specific card by its unique ID.
+- DELETE /cards/:id: Remove a card from the collection using its ID.
+- In-memory storage: All card data is stored in a simple array for ease of use.
+
+ Learning Outcomes
+- Understand how to set up and configure an Express.js server.
+- Learn to define RESTful routes and handle different HTTP methods.
+- Practice working with request bodies and dynamic route parameters.
+- Explore basic CRUD operations without using a database.
+- Gain confidence in building and testing APIs using tools like Postman 
