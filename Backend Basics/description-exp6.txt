@@ -1,0 +1,17 @@
+This project demonstrates how to implement secure access control in a Node.js and Express.js banking API using JSON Web Tokens (JWT). 
+  It includes a login system that issues tokens, middleware to verify those tokens, and protected routes for viewing balances, depositing, and withdrawing funds.
+  The system ensures that only authenticated users can perform sensitive operations, reinforcing the importance of secure backend design.
+
+ Key Points
+- /login route issues a JWT token after verifying credentials
+- Middleware checks for valid Authorization: Bearer <token> header
+-  Protected routes: /balance, /deposit, /withdraw
+-  Error handling for missing/invalid tokens and insufficient balance
+-  MongoDB stores user accounts with balances
+
+ Learning Outcomes
+- Understand how JWT works for stateless authentication
+- Learn to implement middleware for token verification
+- Gain experience in securing RESTful API endpoints
+- Practice error handling and response structuring
+- Explore MongoDB integration for user and balance management
