@@ -1,0 +1,25 @@
+This project demonstrates how to connect a React frontend application to an Express.js backend using Axios. By building a simple product listing page, 
+you’ll learn how to fetch data from an API, manage application state, and render dynamic UI components. 
+This is a foundational skill for building modern full-stack web applications.
+
+ Key Points
+Set up a basic Express.js API that returns a list of products.
+
+Use Axios in React to fetch data from the API when the component mounts.
+
+Implement loading and error handling states for better user experience.
+
+Display product data dynamically in a responsive card layout.
+
+Run both frontend and backend locally to test real-time API integration.
+
+ Learning Outcomes
+Understand how to connect frontend and backend using REST APIs.
+
+Gain hands-on experience in data fetching with Axios in React.
+
+Learn to manage asynchronous operations and handle responses.
+
+Improve skills in state management and UI rendering.
+
+Build confidence to integrate APIs in future full-stack applications.
