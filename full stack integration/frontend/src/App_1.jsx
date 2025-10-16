@@ -1,21 +1,39 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState } from "react";
+import axios from "axios";
+import "./App.css";
 
 function App() {
-  const [data, setData] = useState(null);
+  const [products, setProducts] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
 
   useEffect(() => {
-    // Fetch data from the backend
-    fetch('http://localhost:5000/api/data')
-      .then((response) => response.json())
-      .then((data) => setData(data))
-      .catch((error) => console.error('Error fetching data:', error));
+    axios.get("http://localhost:5000/api/products")
+      .then((res) => {
+        setProducts(res.data);
+        setLoading(false);
+      })
+      .catch(() => {
+        setError("Failed to load products");
+        setLoading(false);
+      });
   }, []);
 
+  if (loading) return <h2>Loading...</h2>;
+  if (error) return <h2>{error}</h2>;
+
   return (
-    <div className="App">
-      <header className="App-header">
-        {data ? <p>{data.message}</p> : <p>Loading...</p>}
-      </header>
+    <div className="container">
+      <h2 className="title">Product List</h2>
+      <div className="product-list">
+        {products.map((p) => (
+          <div className="card" key={p.id}>
+            <h3>{p.name}</h3>
+            <p>Price: ${p.price}</p>
+            <button>Buy Now</button>
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
