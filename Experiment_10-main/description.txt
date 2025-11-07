@@ -1,0 +1,28 @@
+Build a React app (e.g., using Create React App).
+
+Write a multi-stage Dockerfile: Stage 1 uses Node.js to install dependencies and build the app; Stage 2 uses Nginx to serve static files.
+
+Add a .dockerignore file to exclude unnecessary files like node_modules, build, and .git.
+
+Build the Docker image locally and run it to test the React app on http://localhost
+.
+
+Verify the final Docker image is smaller and only includes necessary files.
+
+Deploy backend and frontend on separate AWS EC2 instances.
+
+Set up an Application Load Balancer (ALB) to distribute traffic across multiple backend instances.
+
+Configure security groups, VPC settings, and optionally domain routing via Route 53.
+
+Test deployment to ensure the app is accessible online and load balancer handles traffic correctly.
+
+Create a GitHub Actions workflow (.github/workflows/main.yml) to automate testing and deployment.
+
+Configure the workflow to trigger on every push to the main branch, set up Node.js, install dependencies, run tests, and build the project.
+
+Optionally, configure the workflow to deploy build artifacts to GitHub Pages, Netlify, or S3.
+
+Commit and push changes to verify that the workflow runs successfully.
+
+Ensure automated testing, build, and optional deployment run on every push, with visible workflow status in the repository.
